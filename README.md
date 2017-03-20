@@ -4,7 +4,7 @@ This is a sample Notes Application which has features like add a note , delete ,
 The following are the things done in the Notes App.
 
 **** Components Used/Done in this project. ***
-1. Used Latest Android SDK 24 ( which this app is currently targeting as well ) and all build tools etc using are updated ones.
+1. Used Latest Android SDK 25 ( which this app is currently targeting as well ) and all build tools etc using are updated ones.
 2. Using Java8 with jackoptions which will enable Lambda expressions, method references etc.
 3. Used RxJava, RxAndroid extensively to make Database calls in Background and call backs in the Main thread with unsubscription in the onDestroy.
 4. Used RxBinding for binding view clicks, editText text changes event etc with throttleFirst and debounce , so that so avoid the multiple clicks
@@ -14,7 +14,7 @@ The following are the things done in the Notes App.
 6. Used MVP pattern in the code , to segregated UI part from the logic with Presenters.
 
 
-**** Features included in this project. Most of them i added more than which is provided in the Document ***
+**** Features included in this project ***
 1. Added Search Features to search items.
 2. Added Add item, Delete item ( in two places Listing Page long press and Details page menu click ), update item.
 3. Optimized on Item addition/deleting/modification , Only updating that item in Recyclerview. Also Optimizing on Database calls upon
