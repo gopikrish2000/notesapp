@@ -3,7 +3,7 @@ This is a sample Notes Application which has features like add a note , delete ,
 
 The following are the things done in the Notes App.
 
-**** Components Used/Done in this project. ***
+## Components Used/Done in this project
 1. Used Latest Android SDK 25 ( which this app is currently targeting as well ) and all build tools etc using are updated ones.
 2. Using Java8 with jackoptions which will enable Lambda expressions, method references etc.
 3. Used RxJava, RxAndroid extensively to make Database calls in Background and call backs in the Main thread with unsubscription in the onDestroy.
@@ -14,7 +14,7 @@ The following are the things done in the Notes App.
 6. Used MVP pattern in the code , to segregated UI part from the logic with Presenters.
 
 
-**** Features included in this project ***
+## Features included in this project
 1. Added Search Features to search items.
 2. Added Add item, Delete item ( in two places Listing Page long press and Details page menu click ), update item.
 3. Optimized on Item addition/deleting/modification , Only updating that item in Recyclerview. Also Optimizing on Database calls upon
@@ -35,7 +35,17 @@ The following are the things done in the Notes App.
 15. Done other features like showing progressbar while loading, publishsubjects instead of interfaces etc.
 
 
-**** UI Features Added ******
+## UI Features Added
 1. Added Floating Action Button for Add.
 2. Added Ripple Effects for clicks and long press for all buttons and listing page notes item.
 3. Using custom EditText with lines drawn in the Details page.
+
+## Screenshots
+
+![notes home filled](https://cloud.githubusercontent.com/assets/978945/24119395/f22aa188-0dd6-11e7-9482-c3c7a2de66d1.png)
+![notes details](https://cloud.githubusercontent.com/assets/978945/24119394/f223126a-0dd6-11e7-8726-53626c64336c.png)
+![notes search](https://cloud.githubusercontent.com/assets/978945/24119393/f2210b32-0dd6-11e7-8180-02bd63dd5ac9.png)
+![noteshome](https://cloud.githubusercontent.com/assets/978945/24119392/f21ffe22-0dd6-11e7-8468-b16c1d43568e.png)
+![notes delete](https://cloud.githubusercontent.com/assets/978945/24119397/f2786a8a-0dd6-11e7-957b-fa4039de0aa1.png)
+
+
