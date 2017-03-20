@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/align_toolbar_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/NotesSearchToolbar">
+
+        <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/ic_keyboard_backspace"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <EditText
+                android:id="@+id/notes_search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="14dp"
+                android:background="@color/transparent"
+                android:ellipsize="end"
+                android:gravity="bottom"
+                android:hint="Search"
+                android:singleLine="true"
+                android:textColorHint="#48212121"
+                android:textSize="15sp"
+                />
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/align_toolbar_wrapper"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/notes_search_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView android:id="@+id/no_results_found_view"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/no_results_found"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</RelativeLayout>

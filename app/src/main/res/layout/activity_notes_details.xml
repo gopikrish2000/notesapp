@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_light"
+    android:paddingBottom="8dp"
+    tools:context="com.notes.gopi.activities.NotesListingActivity">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/ToolbarPopupTheme"
+        app:theme="@style/ToolbarStyle">
+
+        <TextView
+            android:id="@+id/notes_header_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            />
+
+        <EditText
+            android:id="@+id/notes_header_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header_title_bar"
+            android:minWidth="250dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:singleLine="true"
+            android:hint="@string/enter_title_here"
+            android:textColorHint="@color/gray_dark"
+            android:textColor="@color/colorAccent"
+            android:visibility="visible"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+
+        <TextView
+            android:id="@+id/notes_last_modified_difference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="3 min ago"
+            />
+
+        <TextView
+            android:id="@+id/notes_last_modified_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text=""
+            />
+
+        <com.notes.gopi.customviews.MultiLineEditText
+            android:id="@+id/notes_multiline_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/notes_edit_btn"
+            android:layout_below="@+id/notes_last_modified_difference"
+            android:background="@color/skyblue"
+            android:gravity="top|left"
+            android:textColor="@drawable/text_color_selector"/>
+
+            <Button
+                android:id="@+id/notes_edit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="8dp"
+                android:visibility="gone"
+                android:background="@drawable/botom_buttons_style"
+                android:text="Edit"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/notes_done_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/botom_buttons_style"
+                android:text="Done"
+                android:textColor="@color/white"
+                android:visibility="visible"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
