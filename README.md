@@ -1,4 +1,4 @@
-# notesapp
+# Notes App
 This is a sample Notes Application which has features like add a note , delete , search etc . Done with latest concepts like Rxjava ...
 
 The following are the things done in the Notes App.
