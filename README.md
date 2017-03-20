@@ -42,10 +42,9 @@ The following are the things done in the Notes App.
 
 ## Screenshots
 
-![notes home filled](https://cloud.githubusercontent.com/assets/978945/24119395/f22aa188-0dd6-11e7-9482-c3c7a2de66d1.png)
-![notes details](https://cloud.githubusercontent.com/assets/978945/24119394/f223126a-0dd6-11e7-8726-53626c64336c.png)
-![notes search](https://cloud.githubusercontent.com/assets/978945/24119393/f2210b32-0dd6-11e7-8180-02bd63dd5ac9.png)
-![noteshome](https://cloud.githubusercontent.com/assets/978945/24119392/f21ffe22-0dd6-11e7-8468-b16c1d43568e.png)
-![notes delete](https://cloud.githubusercontent.com/assets/978945/24119397/f2786a8a-0dd6-11e7-957b-fa4039de0aa1.png)
-
+<img src="https://cloud.githubusercontent.com/assets/978945/24119395/f22aa188-0dd6-11e7-9482-c3c7a2de66d1.png" width="350" height="600"> </img>
+<img src="https://cloud.githubusercontent.com/assets/978945/24119394/f223126a-0dd6-11e7-8726-53626c64336c.png" width="350" height="600"> </img>
+<img src="https://cloud.githubusercontent.com/assets/978945/24119393/f2210b32-0dd6-11e7-8180-02bd63dd5ac9.png" width="350" height="600"> </img>
+<img src="https://cloud.githubusercontent.com/assets/978945/24119392/f21ffe22-0dd6-11e7-8468-b16c1d43568e.png" width="350" height="600"> </img>
+<img src="https://cloud.githubusercontent.com/assets/978945/24119397/f2786a8a-0dd6-11e7-957b-fa4039de0aa1.png" width="350" height="600"> </img>
 
